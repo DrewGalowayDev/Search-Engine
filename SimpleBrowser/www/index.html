@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!DOCTYPE html>
+
+
+<!--Copyright @drewgallowaydev22 -
+Github -https://github.com/DrewGalowayDev/x-flashmessenger
+Linkedin -Robinson Otochi-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Search Engine</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/materialize-css@1.0.0/dist/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  
+ 
+</head>
+<body style="background-image: url('img/1.jpg');">  
+  <div class="container">
+    <div class="time-container">
+      <span id="time"><h2>Search Engine</h2></span>
+    </div>
+    <div class="date-container">
+      <span id="date"></span>
+      <span id="day"></span>
+    </div>
+    <div class="greeting-container">
+      <span id="greeting"></span>
+    </div>
+    <div class="weather-container">
+      <i class="weather-icon" id="weatherIcon"></i>
+      <span id="weather"></span>
+      <span id="weatherText"></span>
+    </div>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search Google with  x-flash messenger">
+      <div class="btn-container">
+        <button id="searchBtn" type="button"><i class="material-icons">search</i></button>
+        <button id="luckyBtn" type="button">I'm Feeling Lucky</button>
+      </div>
+    </div>
+    <div class="tabs-container">
+      <div class="tab">
+        <img src="https://i.ibb.co/zV7HhNf/images-4.png" alt="GFG">
+        <span>GeeksforGeeks</span>
+      </div>
+      <div class="tab">
+        <img src="https://i.ibb.co/q7fSmQf/images-3.png" alt="HackerRank">
+        <span>HackerRank</span>
+      </div>
+      <div class="tab">
+        <img src="https://share.streamlit.io/-/build/favicon.svg" alt="Streamlit">
+        <span>Streamlit</span>
+      </div>
+      <div class="tab">
+        <img src="https://i.ibb.co/F02yDvT/images-2.png" alt="SoloLearn">
+        <span>SoloLearn</span>
+      </div>
+    </div>
+  </div>
+  <div class="quote-container">
+    <span id="quote"></span>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/materialize-css@1.0.0/dist/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="js/index.js"></script>
+  
+  
+</body>
+</html>
+
