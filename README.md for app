@@ -1,0 +1,22 @@
+# 🌟 Simple Browser Engine 🌟
+
+Welcome to the **Simple Browser Engine**! This project is a lightweight web browser built using [Apache Cordova](https://cordova.apache.org/). It aims to provide a fast and efficient browsing experience on mobile and desktop platforms.
+
+## 🚀 Features
+
+- **Fast Performance**: Optimized for speed and responsiveness.
+- **User-Friendly Interface**: Intuitive design for seamless navigation.
+- **Cross-Platform Compatibility**: Works on iOS, Android, and desktop environments.
+- **Customizable Settings**: Personalize your browsing experience with various options.
+- **Open Source**: Join our community and contribute to the project!
+
+## 📦 Installation
+
+To get started with the Simple Browser Engine, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/DrewGalowayDev/Search-Engine.git
+
+2. Navigate to the Project Directory
+   cd Search-Engine/SimpleBrowser 
